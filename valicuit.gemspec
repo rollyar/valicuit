@@ -14,10 +14,9 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'activemodel'
 
-  s.add_development_dependency 'rake', '~> 13.0'
-  s.add_development_dependency 'rspec', '~> 3.10'
-  s.add_development_dependency 'simplecov', '~> 0.13'
-  s.add_development_dependency 'codeclimate-test-reporter', '~> 1.0.9'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'simplecov'
 	
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- spec/*`.split("\n")
